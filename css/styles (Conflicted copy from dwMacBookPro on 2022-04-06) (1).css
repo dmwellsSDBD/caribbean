@@ -1,0 +1,119 @@
+/* CSS Document 
+#0477BF - Dk Blue
+#F3F4F8 - White
+#049DD9 - Lt Blue
+#0396A6 - Blue/Green
+#D9C5AD - Sand
+
+Fonts
+	Display: 		font-family: 'Skranji', cursive;
+	Serif:  		font-family: 'Karma', serif;
+	Sans-serif:     font-family: 'Oxygen', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;700&family=Oxygen:wght@400;700&family=Skranji:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* CSS Reset Code */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article, aside, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+	background-color: #049DD9;
+	background-image: url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #F3F4F8;
+	font-family: 'Oxygen', sans-serif;
+}
+
+header {
+	background-color: #049DD9cc;
+	margin: 0;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-family: 'Skranji', cursive;
+}
+
+header h1 {
+	font-size: 8em;
+}
+
+header h1 .beaches {
+	color: #D9C5AD;	
+}
+
+header h2 {
+	position: relative;
+	margin-top: -85px;
+	margin-left: 250px;
+	font-size: 5em;
+	color: #0396A6;
+	text-shadow: 5px 5px 10px #F3F4F8;
+}
+
+nav {
+	background-color: #F3F4F8;
+}
+
+nav ul {
+	display: block;
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 10px;
+}
+
+nav li a {
+	color: #0477BF;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+main {
+	position: absolute;
+	margin-top: 0;
+	padding: 0 350px;
+	background-color: #F3F4F899;
+	height: 500px;
+	color: #0477BF;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+blockquote {
+	
+}
+
+table {
+	
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #D9C5ADcc;
+	text-align: center;
+}
+
+.footNav {
+}
